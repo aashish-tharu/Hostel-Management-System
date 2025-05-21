@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: 'poppins', sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+nav {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 3px solid gray;
+}
+
+.container > h2 {
+    padding: 20px;
+    background-color: transparent;
+}
+
+.container > table {
+    padding: 20px;
+    background-color: transparent;
+}
+
+table thead tr {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+table tbody tr {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+tr > td, tr > th {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+td input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #ffffff;
+}

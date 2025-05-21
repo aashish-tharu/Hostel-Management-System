@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f4f9;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+}
+
+.admin-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border-top: 5px solid #d32f2f;
+}
+
+.admin-logo h1 {
+    font-size: 80px;
+    color: #d32f2f;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-logo h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.admin-logo h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.input-group:hover {
+    border-color: #d32f2f;
+}
+
+.input-group i {
+    color: #d32f2f;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+}
+
+.admin-btn {
+    width: 100%;
+    padding: 15px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.admin-btn:hover {
+    background: #b71c1c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(210, 47, 47, 0.3);
+}
+
+.admin-links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.admin-links a {
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.admin-links a:hover {
+    color: #d32f2f;
+    transform: translateX(5px);
+}
+
+.admin-footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.admin-footer p {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #bbb;
+}
